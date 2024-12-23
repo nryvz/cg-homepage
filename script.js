@@ -23,3 +23,15 @@ hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
 });
+
+
+document.getElementById("hamMenu1").addEventListener("click", function () {
+    const menu = document.getElementById("menu");
+    if (menu.style.display === "none") {
+        menu.style.display = "inline-flex";
+    } else {
+        menu.style.display = "none";
+    }
+});
+
+

@@ -1,10 +1,13 @@
 {
+  "homepage": "https://nryvz.github.io/cg-homepage",
   "name": "cg-hompage",
   "version": "1.0.0",
   "description": "cgi homepage",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass main.scss style.css -w"
+    "compile:sass": "sass main.scss style.css -w",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "author": "nuriye yavuz",
   "license": "ISC",
