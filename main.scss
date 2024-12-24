@@ -670,6 +670,7 @@ overflow-x: hidden;
                 width: 100%;
                 height: 580px;
                 background: url(img/icons/guest-mobile-bg.png);
+                background-size: cover;
             }
 
         }
@@ -733,7 +734,7 @@ overflow-x: hidden;
                 z-index: 555;
 
                 @media only screen and (max-width:430px) {
-                    width: 400px;
+                    width: 390px;
                 }
 
                 @media only screen and (max-width:390px) {
@@ -1504,6 +1505,14 @@ overflow-x: hidden;
             margin-left: 6px;
         }
 
+        
+        @media only screen and (max-width: 390px) {
+            border-radius: 8px;
+            width: 357px;
+            height: 229px;
+            margin-left: 6px;
+        }
+
         @media only screen and (max-width: 320px) {
             border-radius: 8px;
             width: 320px;
@@ -2152,24 +2161,13 @@ overflow-x: hidden;
         }
 
         @media only screen and (max-width: 430px) {
-            width: 430px;
+            width: 100%;
             height: 357px;
             border-radius: 8px;
             background: url(img/photo/Frame27661.png);
+            background-size: cover;
         }
-
-        @media only screen and (max-width: 390px) {
-            width: 390px;
-        }
-
-        @media only screen and (max-width: 360px) {
-            width: 360px;
-        }
-
-        @media only screen and (max-width:320px) {
-            width: 320px;
-        }
-
+      
         .leaderboard-gradient {
             width: 1204px;
             height: 145px;
@@ -2194,20 +2192,12 @@ overflow-x: hidden;
         }
 
         @media only screen and (max-width: 430px) {
-            width: 430px;
+            width: 100%;
             margin-top: -196px;
             align-items: center;
             justify-content: center;
             padding-left: 0px;
             visibility: visible;
-        }
-
-        @media only screen and (max-width: 390px) {
-            width: 360px;
-        }
-
-        @media only screen and (max-width: 320px) {
-            width: 310px;
         }
 
         .leaderboard-title-p {
@@ -2466,6 +2456,12 @@ overflow-x: hidden;
 
         @media only screen and (max-width: 430px) {
             width: 400px;
+            gap: 20px;
+        }
+
+        
+        @media only screen and (max-width: 397px) {
+            width: 397px;
             gap: 20px;
         }
 
@@ -2794,7 +2790,7 @@ overflow-x: hidden;
             }
 
             @media only screen and (max-width:430px) {
-                width: 100%;
+                width: 374px;
                 height: 210px;
             }
 
@@ -2865,9 +2861,10 @@ overflow-x: hidden;
 
             @media only screen and (max-width: 430px) {
                 transform: translateY(-229%);
+                width: 372px;
             }
 
-            @media only screen and (max-width: 360px) {
+            @media only screen and (max-width: 390px) {
                 transform: translateY(-235%);
                 width: 360px;
             }
@@ -2900,6 +2897,10 @@ overflow-x: hidden;
                     font-style: normal;
                     font-weight: 400;
                     letter-spacing: -0.16px;
+
+                    @media only screen and (max-width: 430px) {
+                        width: 350px;
+                    }
 
                     @media only screen and (max-width: 360px) {
                         width: 298px;
@@ -3054,6 +3055,13 @@ overflow-x: hidden;
         flex-direction: column;
         gap: 80px;
 
+        
+        @media only screen and (max-width: 1024px) {
+            width: 1000px;
+            gap: 20px;
+        }
+
+
         @media only screen and (max-width: 768px) {
             width: 700px;
             gap: 20px;
@@ -3088,7 +3096,7 @@ overflow-x: hidden;
             @media only screen and (max-width: 430px) {
                 width: 100%;
                 justify-content: center;
-                gap: 250px;
+                gap: 244px;
             }
 
             @media only screen and (max-width: 390px) {
@@ -3352,7 +3360,7 @@ overflow-x: hidden;
             justify-content: center;
             gap: 30px;
             transform: translateY(-113%);
-            margin-left: 30px;
+            margin-left: 8px;
             visibility: hidden;
 
             @media only screen and (max-width: 430px) {
@@ -3559,20 +3567,8 @@ overflow-x: hidden;
             }
 
             @media only screen and (max-width: 430px) {
-                width: 390px;
+                width: 100%;
                 flex-direction: column;
-            }
-
-            @media only screen and (max-width: 390px) {
-                width: 360px;
-            }
-
-            @media only screen and (max-width: 360px) {
-                width: 330px;
-            }
-
-            @media only screen and (max-width: 320px) {
-                width: 280px;
             }
 
             .logo {
@@ -3642,6 +3638,11 @@ overflow-x: hidden;
             align-self: auto;
         }
 
+        @media only screen and (max-width: 397px) {
+            width: 397px;
+        }
+
+
         @media only screen and (max-width: 390px) {
             width: 390px;
         }
@@ -3679,6 +3680,11 @@ overflow-x: hidden;
                 padding: 20px;
                 gap: 20px;
                 align-self: stretch;
+            }
+
+            
+            @media only screen and (max-width: 397px) {
+                width: 397px;
             }
 
             @media only screen and (max-width: 390px) {
@@ -3743,6 +3749,10 @@ overflow-x: hidden;
         @media only screen and (max-width: 430px) {
             display: inline;
             width: 430px;
+        }
+
+        @media only screen and (max-width: 397px) {
+            width: 397px;
         }
 
         @media only screen and (max-width: 390px) {
