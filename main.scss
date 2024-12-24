@@ -3099,6 +3099,13 @@ overflow-x: hidden;
                 gap: 244px;
             }
 
+             @media only screen and (max-width: 395px) {
+                width: 100%;
+                justify-content: center;
+                gap: 220px;
+            }
+
+
             @media only screen and (max-width: 390px) {
                 gap: 211px;
             }
